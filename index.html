@@ -11,9 +11,9 @@
     />
     <title>notepad</title>
   </head>
-  <body>
+  <body  style="background-image: url('https://i.pinimg.com/originals/55/3f/be/553fbe0b33a449a7398d85ad61d81c5f.jpg');">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-      <a class="navbar-brand text-light" href="#"><h1>Navya Library</h1></a>
+      <a class="navbar-brand text-light" href="#"><h1 style="margin-left: 500px;"><em>Navya Library</em></h1></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -26,38 +26,19 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link text-light" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
-      </div>
+    
     </nav>
 
 <div id="message"></div>
 
 
     <div class="container my-3">
-      <h1>Welcome To Navya Library</h1>
+      <h1 style="text-align: center;"><i>Welcome To Navya Library</i></h1>
       <hr />
       <div class="container">
         <form id= "libraryForm">
           <div class="form-group row">
-            <label for="Name" class="col-sm-2 col-form-label">Name</label>
+            <label for="Name" class="col-sm-2 col-form-label"><b><big>Name</big></b></label>
             <div class="col-sm-10">
               <input
                 type="text"
@@ -68,7 +49,7 @@
             </div>
           </div>
           <div class="form-group row">
-            <label for="Author" class="col-sm-2 col-form-label">Author</label>
+            <label for="Author" class="col-sm-2 col-form-label"><b><big>Author</big></b></label>
             <div class="col-sm-10">
               <input
                 type="text"
@@ -80,7 +61,7 @@
           </div>
           <fieldset class="form-group">
             <div class="row">
-              <legend class="col-form-label col-sm-2 pt-0">Type</legend>
+              <legend class="col-form-label col-sm-2 pt-0"><b><big>Type</big></b></legend>
               <div class="col-sm-10">
                 <div class="form-check">
                   <input
@@ -130,15 +111,18 @@
           </div>
         </form>
       </div>
+      <br>
+      <br>
+      <hr>
       <div id="table" class="my-3">
-          <h1 style="margin-bottom: 6px;">These are your books</h1>
+          <h1 style="margin-bottom: 6px;text-align: center;"><em>These are your books</em></h1>
           
         <table class="table table-hover">
           <thead>
             <tr>
-              <th scope="col">Name</th>
-              <th scope="col">Author</th>
-              <th scope="col">Type</th>
+              <th scope="col"><i>Name</i></th>
+              <th scope="col"><i>Author</i></th>
+              <th scope="col"><i>Type</i></th>
             </tr>
           </thead>
           <tbody id ="tableBody">
@@ -147,6 +131,17 @@
         </table>
       </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p style="color:black;"><big>© 2019-2024 CVscanner, Inc. · </big><a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+     
+
     
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
